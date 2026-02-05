@@ -218,19 +218,19 @@ jobs:
           # Remove the "#" sign from the beginning of the line below to activate:
           #curl https://github.com/loopnlearn/Loop/commit/d206432b024279ef710df462b20bd464cd9682d4.patch | git apply --directory=Loop -v --whitespace=fix
 
-          #Loop: hansfsordal-patch-1 : Endring av karbotider
-          curl https://github.com/hansfsordal/Loop/commit/d355ed70d85a0aa1a9f2a2e5cb2f71a41f7dfb33.patch | git apply -v --directory=Loop -v --whitespace=fix
+          #Loop: hansfsordal-patch-3 : Endring av karbotider
+          curl https://github.com/hansfsordal/Loop/commit/1112f04786fa5ebd5b4388960062c34fbd98383c.patch | git apply -v --directory=Loop -v --whitespace=fix
 
-          #Loop: hansfsordal-patch-2 : Endring av bs-grense for maks GBPA (162mg/dL)
-          curl https://github.com/hansfsordal/Loop/commit/2963c598cbdcce0d7712d3b203277c26ff0061da.patch | git apply -v --directory=Loop -v --whitespace=fix
+          #Loop: hansfsordal-patch-4 : Endring av bs-grense for maks GBPA (162mg/dL)
+          curl https://github.com/hansfsordal/Loop/commit/fca9acd64ddf1316c7606310df2899a1cdff0260.patch | git apply -v --directory=Loop -v --whitespace=fix
 
           # Submodule LoopKit patches:
           # General template for customizing submodule LoopKit 
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
           #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
 
-          #Loopkit: hansfsordal-patch-1 : Tilpasning Lyumjev-verdier
-          curl https://github.com/hansfsordal/Loopkit/commit/ab6ed0948314a00107fdbb11ddafc6d3fa2678f3.patch | git apply -v --directory=Loopkit -v --whitespace=fix
+          #Loopkit: hansfsordal-patch-2 : Tilpasning Lyumjev-verdier
+          curl https://github.com/hansfsordal/Loopkit/commit/4b8b284e4c44b1024f4c60adb98dd957a694909e.patch | git apply -v --directory=Loopkit -v --whitespace=fix
 
           # Submodule xxxxx patches:
 
