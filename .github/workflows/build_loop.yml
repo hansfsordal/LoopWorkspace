@@ -221,7 +221,7 @@ jobs:
           #Loop: hansfsordal-patch-1 : Endring av karbotider
           curl https://github.com/hansfsordal/Loop/commit/d355ed70d85a0aa1a9f2a2e5cb2f71a41f7dfb33.patch | git apply -v --directory=Loop -v --whitespace=fix
 
-          #Loop: hansfsordal-patch-2 : Endring av karbotider
+          #Loop: hansfsordal-patch-2 : Endring av bs-grense for maks GBPA (162mg/dL)
           curl https://github.com/hansfsordal/Loop/commit/2963c598cbdcce0d7712d3b203277c26ff0061da.patch | git apply -v --directory=Loop -v --whitespace=fix
 
           # Submodule LoopKit patches:
